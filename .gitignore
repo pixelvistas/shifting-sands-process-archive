@@ -1,0 +1,83 @@
+
+---
+
+## 🚫 `.gitignore`
+
+This `.gitignore` is **intentionally conservative** — it ignores generated, cache, and machine-specific files while keeping source artifacts.
+
+```gitignore
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+*.tmp
+*.bak
+*.autosave
+
+# =========================
+# Fusion 360 / CAD
+# =========================
+**/Fusion360Archive/**
+*.f3d.lock
+*.f3z.lock
+
+# =========================
+# Unity (if added later)
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+MemoryCaptures/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# =========================
+# Data & Large Files
+# =========================
+*.csv
+*.tsv
+*.nc
+*.h5
+*.tif
+*.tiff
+*.geojson
+*.shp
+*.shx
+*.dbf
+
+# =========================
+# Media (optional)
+# Uncomment if media is tracked elsewhere
+# =========================
+# *.mp4
+# *.mov
+# *.wav
+# *.png
+# *.jpg
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.rar
+*.7z
